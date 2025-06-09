@@ -1,0 +1,61 @@
+CMD_DIR: /Users/elizaveta/sources-of-variance-in-rl-main/oracle
+COLORTERM: truecolor
+COMMAND_MODE: unix2003
+FLAGS_DEST: args
+FLAG_ALGORITHM: PPO
+FLAG_ANTI: 'True'
+FLAG_BUFFER_SEED: '444'
+FLAG_ENV_NAME: Ant-v4
+FLAG_ENV_SEED: '111'
+FLAG_LEARNING_TIMESTEPS: '900000'
+FLAG_NOISE_SEED: '333'
+FLAG_PARAMETER: policy
+FLAG_POLICY_SEED: '222'
+FLAG_SECTIONS_NUMBER: '1'
+FLAG_SEED_RANGE: 1,12
+GIT_ASKPASS: /Users/elizaveta/Desktop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+GUILD_HOME: /Users/elizaveta/.guild
+GUILD_OP: superOracleAnt
+GUILD_PLUGINS: cpu,memory,perf,python_script
+GUILD_SOURCECODE: .
+HOME: /Users/elizaveta
+JENV_LOADED: '1'
+JENV_SHELL: zsh
+LANG: de_DE.UTF-8
+LESS: -R
+LOGNAME: elizaveta
+LOG_LEVEL: '20'
+LSCOLORS: Gxfxcxdxbxegedabagacad
+LS_COLORS: di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43
+MallocNanoZone: '0'
+ORIGINAL_XDG_CURRENT_DESKTOP: undefined
+PAGER: less
+PATH: /Users/elizaveta/sources-of-variance-in-rl-main/venv/bin:/Users/elizaveta/.jenv/shims:/Users/elizaveta/.jenv/bin:/Users/elizaveta/.jenv/shims:/Users/elizaveta/.jenv/shims:/usr/local/opt/openjdk@11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/elizaveta/.jenv/shims:/Users/elizaveta/.jenv/bin:/usr/local/opt/openjdk@11/bin
+PROJECT_DIR: /Users/elizaveta/sources-of-variance-in-rl-main/oracle
+PWD: /Users/elizaveta/sources-of-variance-in-rl-main/oracle
+PYTHONPATH: .:/Users/elizaveta/sources-of-variance-in-rl-main/venv/lib/python3.10/site-packages
+RUN_DIR: /Users/elizaveta/sources-of-variance-in-rl-main/policyAnstiA
+RUN_ID: policyAnstiA
+SHELL: /bin/zsh
+SHLVL: '2'
+SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.9shpoVgJqC/Listeners
+TERM: xterm-256color
+TERM_PROGRAM: vscode
+TERM_PROGRAM_VERSION: 1.84.2
+TMPDIR: /var/folders/8y/r2ynjkvs4vq__rtjzrl453dh0000gq/T/
+USER: elizaveta
+USER_ZDOTDIR: /Users/elizaveta
+VIRTUAL_ENV: /Users/elizaveta/sources-of-variance-in-rl-main/venv
+VIRTUAL_ENV_PROMPT: '(venv) '
+VSCODE_GIT_ASKPASS_EXTRA_ARGS: --ms-enable-electron-run-as-node
+VSCODE_GIT_ASKPASS_MAIN: /Users/elizaveta/Desktop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_NODE: /Users/elizaveta/Desktop/Visual Studio Code.app/Contents/Frameworks/Code
+  Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)
+VSCODE_GIT_IPC_HANDLE: /var/folders/8y/r2ynjkvs4vq__rtjzrl453dh0000gq/T/vscode-git-ea0d70abce.sock
+VSCODE_INJECTION: '1'
+XPC_FLAGS: '0x0'
+XPC_SERVICE_NAME: '0'
+ZDOTDIR: /Users/elizaveta
+ZSH: /Users/elizaveta/.oh-my-zsh
+__CFBundleIdentifier: com.microsoft.VSCode
+__CF_USER_TEXT_ENCODING: 0x1F7:0x0:0x5C

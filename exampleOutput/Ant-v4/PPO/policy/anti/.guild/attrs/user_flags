@@ -1,0 +1,4 @@
+anti: 'True'
+parameter: policy
+sections_number: 1
+seed_range: 1,12

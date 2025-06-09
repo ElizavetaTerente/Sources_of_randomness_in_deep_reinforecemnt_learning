@@ -1,0 +1,4 @@
+anti: 'True'
+parameter: env
+sections_number: 3
+seed_range: 1,23

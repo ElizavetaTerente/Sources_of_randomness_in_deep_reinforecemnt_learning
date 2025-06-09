@@ -1,0 +1,16 @@
+pandas
+gymnasium
+numpy
+torch
+stable-baselines3
+pyreadline3
+guildai
+git+https://github.com/martius-lab/pink-noise-rl#egg=pink-noise-rl
+git+https://github.com/jkbjh/cn-ppo-paper-code.git#egg=cnppo
+git+https://github.com/jkbjh/guild-utils#egg=guild_utils
+dm_control
+opencv-python
+git+https://github.com/zuoxingdong/dm2gym.git
+swig
+gymnasium[box2d]
+seaborn

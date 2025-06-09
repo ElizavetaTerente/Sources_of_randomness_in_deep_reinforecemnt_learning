@@ -1,0 +1,66 @@
+MountainCarContinuous-v0:
+env:
+Final median is 14.0
+Final Performance Range Method seeds number after 100 runs is 11.
+Final Moving Average Method seeds number after 100 runs is 23.
+Final Bootstrap Method seeds number after 100 runs is 11.
+Final Cumulative Mean and Std Dev Method seeds number after 100 runs is 17.
+Final optimal seeds number after 100 runs : 15.
+
+buffer:
+Final median is 9.5
+Final Performance Range Method seeds number after 100 runs is 8.
+Final Moving Average Method seeds number after 100 runs is 17.
+Final Bootstrap Method seeds number after 100 runs is 7.
+Final Cumulative Mean and Std Dev Method seeds number after 100 runs is 11.
+Final optimal seeds number after 100 runs : 10.
+
+noise:
+Final median is 13.5
+Final Performance Range Method seeds number after 100 runs is 12.
+Final Moving Average Method seeds number after 100 runs is 26.
+Final Bootstrap Method seeds number after 100 runs is 12.
+Final Cumulative Mean and Std Dev Method seeds number after 100 runs is 15.
+Final optimal seeds number after 100 runs : 16.
+
+policy:
+Final median is 8.0
+Final Performance Range Method seeds number after 100 runs is 7.
+Final Moving Average Method seeds number after 100 runs is 15.
+Final Bootstrap Method seeds number after 100 runs is 8.
+Final Cumulative Mean and Std Dev Method seeds number after 100 runs is 8.
+Final optimal seeds number after 100 runs : 9.
+
+Pusher-v4:
+env:
+Final median is 7.0
+Final Reward Difference Method seeds number after 100 runs is 7.
+Final Moving Average Method seeds number after 100 runs is 15.
+Final Bootstrap Method seeds number after 100 runs is 7.
+Final Cumulative Mean and Std Dev Method seeds number after 100 runs is 7.
+Final optimal seeds number after 100 runs : 9.
+
+buffer:
+Final median is 9.0
+Final Reward Difference Method seeds number after 100 runs is 7.
+Final Moving Average Method seeds number after 100 runs is 12.
+Final Bootstrap Method seeds number after 100 runs is 7.
+Final Cumulative Mean and Std Dev Method seeds number after 100 runs is 11.
+Final optimal seeds number after 100 runs : 9.
+
+noise:
+Final median is 8.5
+Final Reward Difference Method seeds number after 100 runs is 7.
+Final Moving Average Method seeds number after 100 runs is 15.
+Final Bootstrap Method seeds number after 100 runs is 7.
+Final Cumulative Mean and Std Dev Method seeds number after 100 runs is 10.
+Final optimal seeds number after 100 runs : 9.
+
+policy:
+Final median is 9.0
+Final Reward Difference Method seeds number after 100 runs is 8.
+Final Moving Average Method seeds number after 100 runs is 14.
+Final Bootstrap Method seeds number after 100 runs is 8.
+Final Cumulative Mean and Std Dev Method seeds number after 100 runs is 12.
+Final optimal seeds number after 100 runs : 9.
+

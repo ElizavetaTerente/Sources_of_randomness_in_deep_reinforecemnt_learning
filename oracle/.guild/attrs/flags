@@ -1,0 +1,11 @@
+algorithm: PPO
+anti: 'False'
+buffer_seed: 1
+env_name: MountainCarContinuous-v0
+env_seed: 333
+learning_timesteps: 75000
+noise_seed: 25
+parameter: env
+policy_seed: 100
+sections_number: 3
+seed_range: 6,7

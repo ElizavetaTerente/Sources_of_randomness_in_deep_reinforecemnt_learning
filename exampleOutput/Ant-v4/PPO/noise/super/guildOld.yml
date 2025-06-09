@@ -1,0 +1,166 @@
+superOracleMC:
+  description: Run the superOracle.py script with default parameters
+  main: superOracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: SAC
+        choices: [SAC, PPO]
+      sections_number:
+        default: 3
+      learning_timesteps:
+        default: 15000
+      env_name:
+        default: MountainCarContinuous-v0
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: env
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,6
+superOracleReacher:
+  description: Run the superOracle.py script with default parameters
+  main: superOracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: SAC
+        choices: [SAC, PPO]
+      sections_number:
+        default: 3
+      learning_timesteps:
+        default: 30000
+      env_name:
+        default: Reacher-v4
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: env
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,6
+superOracleBipedalWalkerHardcore:
+  description: Run the superOracle.py script with default parameters
+  main: superOracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: SAC
+        choices: [SAC, PPO]
+      sections_number:
+        default: 3
+      learning_timesteps:
+        default: 40000
+      env_name:
+        default: BipedalWalkerHardcore-v3
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: env
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,6
+superOracleLunarLanderContinuous:
+  description: Run the superOracle.py script with default parameters
+  main: superOracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: SAC
+        choices: [SAC, PPO]
+      sections_number:
+        default: 3
+      learning_timesteps:
+        default: 125000
+      env_name:
+        default: LunarLanderContinuous-v2
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: env
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,6
+superOracle:
+  description: Run the superOracle.py script with default parameters
+  main: superOracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: SAC
+        choices: [SAC, PPO]
+      sections_number:
+        default: 3
+      learning_timesteps:
+        default: 25000
+      env_name:
+        default: BipedalWalker-v3
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: env
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,6
+oracle:
+  description: Run the oracle.py script with default parameters
+  main: oracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: SAC
+        choices: [SAC, PPO]
+      env_name:
+        default: Pusher-v4
+      learning_timesteps:
+        default: 30000
+      env_seed:
+        default: 333
+      policy_seed:
+        default: 100
+      noise_seed: 
+        default: 25
+      buffer_seed:
+        default: 1
+      parameter:
+        default: noise
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,6

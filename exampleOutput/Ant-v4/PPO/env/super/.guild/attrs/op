@@ -1,0 +1,35 @@
+delete-on-success: false
+deps: []
+flag-null-labels: {}
+flags-extra: {}
+label-template: null
+op-cmd:
+  cmd-args:
+  - ${python_exe}
+  - -um
+  - guild.op_main
+  - superOracle
+  - --
+  - __flag_args__
+  cmd-env:
+    FLAGS_DEST: args
+    GUILD_PLUGINS: cpu,disk,gpu,memory,perf,python_script
+    PROJECT_DIR: /home/elizaveta.terente/oracle
+    PYTHONPATH: .:/home/elizaveta.terente/venv/lib/python3.10/site-packages
+  cmd-flags:
+    algorithm: {}
+    anti: {}
+    buffer_seed: {}
+    env_name: {}
+    env_seed: {}
+    learning_timesteps: {}
+    noise_seed: {}
+    parameter: {}
+    policy_seed: {}
+    sections_number: {}
+    seed_range: {}
+  flags-dest: args
+output-scalars: null
+python-requires: null
+sourcecode:
+  dest: .

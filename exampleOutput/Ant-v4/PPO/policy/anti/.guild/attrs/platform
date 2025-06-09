@@ -1,0 +1,6 @@
+architecture: '64bit '
+cpus: 12
+processor: i386
+python_version: 3.10.14 (main, Mar 19 2024, 21:46:16) [Clang 15.0.0 (clang-1500.3.9.4)]
+uname: 'Darwin Elizavetas-MBP.localdomain 23.3.0 Darwin Kernel Version 23.3.0: Wed
+  Dec 20 21:28:58 PST 2023; root:xnu-10002.81.5~7/RELEASE_X86_64 x86_64 i386'

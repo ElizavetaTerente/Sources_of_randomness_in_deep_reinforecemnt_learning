@@ -1,0 +1,247 @@
+superOracle:
+  description: Run the superOracle.py script with default parameters
+  main: superOracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: SAC
+        choices: [SAC, PPO]
+      sections_number:
+        default: 3
+      learning_timesteps:
+        default: 1000000
+      env_name:
+        default: HalfCheetah-v4
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: policy
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 222,222
+oracle:
+  description: Run the oracle.py script with default parameters
+  main: oracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: SAC
+        choices: [SAC, PPO]
+      env_name:
+        default: HalfCheetah-v4
+      learning_timesteps:
+        default: 90000
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: policy
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 222,222
+superOracleAnt:
+  description: Run the superOracle.py script with default parameters
+  main: superOracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: PPO
+        choices: [SAC, PPO]
+      sections_number:
+        default: 3
+      learning_timesteps:
+        default: 900000
+      env_name:
+        default: Ant-v4
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: env
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,7
+superOraclePusherSeedRangeChoisesSAC:
+  main: oracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: SAC
+        choices: [SAC, PPO]
+      learning_timesteps:
+        default: 30000
+      env_name:
+        default: Pusher-v4
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: env
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,7
+superOracleHopper:
+  description: Run the superOracle.py script with default parameters
+  main: superOracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: SAC
+        choices: [SAC, PPO]
+      sections_number:
+        default: 3
+      learning_timesteps:
+        default: 35000
+      env_name:
+        default: Hopper-v4
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: env
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,7
+superOracleHalfCheetah:
+  description: Run the superOracle.py script with default parameters
+  main: superOracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: SAC
+        choices: [SAC, PPO]
+      sections_number:
+        default: 3
+      learning_timesteps:
+        default: 90000
+      env_name:
+        default: HalfCheetah-v4
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: env
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,7
+superOracleCarRacing:
+  description: Run the superOracle.py script with default parameters
+  main: superOracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: PPO
+        choices: [SAC, PPO]
+      sections_number:
+        default: 3
+      learning_timesteps:
+        default: 150000
+      env_name:
+        default: CarRacing-v2
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: env
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,7
+superOracleHumanoidStandup:
+  description: Run the superOracle.py script with default parameters
+  main: superOracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: PPO
+        choices: [SAC, PPO]
+      sections_number:
+        default: 3
+      learning_timesteps:
+        default: 800000
+      env_name:
+        default: HumanoidStandup-v4
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: env
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,7
+superOracleHumanoid:
+  description: Run the superOracle.py script with default parameters
+  main: superOracle
+  flags:
+      anti:
+        default: False
+      algorithm:
+        default: PPO
+        choices: [SAC, PPO]
+      sections_number:
+        default: 3
+      learning_timesteps:
+        default: 900000
+      env_name:
+        default: Humanoid-v4
+      env_seed:
+        default: 111
+      policy_seed:
+        default: 222
+      noise_seed: 
+        default: 333
+      buffer_seed:
+        default: 444
+      parameter:
+        default: env
+        choices: [env, policy, noise, buffer]
+      seed_range:
+        default: 6,7

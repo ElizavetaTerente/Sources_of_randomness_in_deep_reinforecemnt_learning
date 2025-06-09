@@ -1,0 +1,6 @@
+architecture: 64bit ELF
+cpus: 6
+processor: x86_64
+python_version: 3.10.12 (main, Mar 22 2024, 16:50:05) [GCC 11.4.0]
+uname: 'Linux c703i-gpu4 6.5.0-44-generic #44~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue
+  Jun 18 14:36:16 UTC 2 x86_64 x86_64'

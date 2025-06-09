@@ -1,0 +1,7 @@
+architecture: 64bit WindowsPE
+cpus: 4
+processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+python_version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64
+  bit (AMD64)]
+uname: Windows LAPTOP-E8R8USUA 10 10.0.22631 AMD64 Intel64 Family 6 Model 140 Stepping
+  1, GenuineIntel
