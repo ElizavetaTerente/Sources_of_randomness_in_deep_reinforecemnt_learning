@@ -1,4 +1,4 @@
-# Sources of randomness in Deep Reinforecemnt Learning
+# Sources of randomness in Deep Reinforecemnt Learning 
 
 This repository contains the experimental setup used to collect the datasets and the resulting datasets by itself (_results.csv_ folder). A detailed description of the process, results, and conclusions can be found in the accompanying report and in the presentation slides (_documents_ folder).
 
